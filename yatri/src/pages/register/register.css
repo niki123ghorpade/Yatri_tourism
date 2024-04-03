@@ -1,0 +1,73 @@
+.r-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #007bff; /* Blue border */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  padding: 30px;
+  width: 350px;
+  height: 600px;
+  background: linear-gradient(45deg,#c2009827, #e600c094); /* Gradient background */
+}
+
+.r-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom:5px;
+  text-align: center; /* Center text horizontally */
+}
+
+.r-content {
+  display: flex;
+  flex-direction: column;
+  
+}
+.lInput#securityQuestion {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  height: 40px; /* Adjust the height as needed */
+}
+
+.lInput#securityQuestion:focus {
+  border-color: #007bff;
+}
+
+
+.register {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .lInput{
+    height: 30px;
+    padding: 10px;
+  }
+  
+  .lButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .lButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }

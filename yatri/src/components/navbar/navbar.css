@@ -1,0 +1,82 @@
+.navbar{
+  height: 50px;
+  background-color: lightskyblue;
+  display: flex;
+
+  justify-content: center;
+ 
+}
+  .navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+  .logo{
+    font-weight: 900;
+
+  }
+  .btn{
+    background-color:darkblue;
+    color: white;
+    font-weight: 800;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .contact {
+    display: flex;
+    margin-left: 20px;
+    padding: 5px 10px;
+  }
+  
+  .contact span {
+    margin-left: 20px;
+  }
+  
+  .socialLinks {
+    display: flex;
+    align-items: center;
+  }
+  
+  .socialLinks a {
+    margin-left: 10px;
+    color: #55084e;
+    width: 10px;
+  }
+  
+  .socialLinks a:hover {
+    color: #070707;
+  }
+  
+  .navItems {
+    display: flex;
+  }
+  
+  .navButton {
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: 1px solid rgb(167, 43, 172);
+    color: rgb(167, 43, 172);
+    cursor: pointer;
+  }
+  
+  .navButton:hover {
+    background-color: rgb(51, 2, 61);
+    color: rgb(235, 227, 227);
+  }
+  
+  .instagram{
+    background-color: white;
+  }
+  
+  .navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+  }

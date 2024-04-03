@@ -1,0 +1,79 @@
+.footer {
+  max-width: 100%;
+  font-size: 14px;
+  padding: 20px;
+  background-color: skyblue;
+  height:300px; /* Set your desired background color here */
+  padding-bottom: 50px;
+}
+
+.fLists{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-left:30px;
+}
+.fList{
+    list-style: none;
+    padding: 0;
+}
+.fListItem{
+    margin-bottom: 20px;
+    color:black;
+
+    cursor: pointer;
+}
+.googleReviewButton {
+    width: 100px;
+    height: 50px;
+    margin-right: 5px;
+    /* Add any additional styles as needed */
+}
+.socialLinks {
+    display: flex;
+    align-items: center;
+  }
+  
+  .socialLinks a {
+    margin-left: 10px;
+    color: #55084e;
+    width: 10px;
+  }
+  
+  .socialLinks a:hover {
+    color: #070707;
+  }
+  
+  .navItems {
+    display: flex;
+  }
+  
+  .navButton {
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: 1px solid rgb(167, 43, 172);
+    color: rgb(167, 43, 172);
+    cursor: pointer;
+  }
+  
+  .navButton:hover {
+    background-color: rgb(51, 2, 61);
+    color: rgb(235, 227, 227);
+  }
+  
+  .instagram{
+    background-color: white;
+  }
+  
+  .navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+  }
+  .review{
+    margin-right:150px;
+  }

@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure container takes up at least the viewport height */
+}
+.title {
+    text-align: center;
+  }
+
+.pList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Adjust spacing between items */
+    max-width: 1200px; /* Limit maximum width of the grid */
+    padding: 0 20px; /* Add padding to prevent items from sticking to edges */
+}
+
+.pListItem {
+    text-align: center; /* Center text horizontally */
+}
+
+.pListImg {
+    width: 100%; /* Ensure image fills its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.fpName {
+    font-size: 1.2rem; /* Adjust title font size */
+    margin-top: 10px;
+    margin-top: 50px;
+  /* Add spacing between image and title */
+}
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This ensures the container takes up the full viewport height */
+}
+

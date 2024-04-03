@@ -1,0 +1,105 @@
+.featured-container {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 320px;
+  margin-top: 7px;
+  flex-direction: column;
+}
+
+.flip-card {
+  position: relative;
+  margin: 20px;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.flip-card-front,
+.flip-card-back {
+  width: 300px;
+  min-height: 320px;
+  height: auto;
+  background-color: #000000;
+  background-image: url(https://img.freepik.com/premium-vector/women-character-traveling-flat-design-banner-template_618890-298.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.flip-card:nth-of-type(2) .flip-card-front,
+.flip-card:nth-of-type(2) .flip-card-back {
+  background-image: url(https://atheenagroup.com/wp-content/uploads/2019/11/alappi.jpg);
+}
+
+.flip-card:nth-of-type(3) .flip-card-front,
+.flip-card:nth-of-type(3) .flip-card-back {
+  background-image: url(https://th.bing.com/th/id/R.a83a7799c74d0b4f31148c5d5edbfeca?rik=YiXlT7JOqMpOoQ&riu=http%3a%2f%2fwww.rajasthantourplanner.com%2fblog%2fwp-content%2fuploads%2f2016%2f06%2fExotic-Rajasthan-tour.jpg&ehk=Zt6nVIS3f%2fAELlO%2fgJUQ3rOuko%2bWAgpKsMc0oWlmXLg%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.flip-card-front {
+  transform: rotateY(0deg);
+}
+
+.flip-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateY(180deg);
+}
+
+.flip-card-front::after,
+.flip-card-back::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #010416;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+}
+
+.flip-card-front .inner,
+.flip-card-back .inner {
+  width: 100%;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateZ(60px) scale(0.94);
+  z-index: 2;
+}
+
+.inner .icon {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.inner h3{
+  margin-bottom: 8px;
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+.inner h2{
+  color:#ffffff;
+}
+
+.inner p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.flip-card:hover .flip-card-front {
+  transform: rotateY(-180deg);
+}
+
+.flip-card:hover .flip-card-back {
+  transform: rotateY(0deg);
+}

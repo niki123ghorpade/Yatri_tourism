@@ -1,0 +1,32 @@
+.collapsible{
+    margin-bottom: 10px;
+}
+
+.collapsibleHeader{
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    background-color:pink;
+    border: 1px solid #580505;
+    border-radius: 5px;
+}
+.packageT{
+    padding-left: 300px;
+    align-items: center;
+    background-color: pink;
+}
+
+.arrowIcon{
+    float: right;
+}
+
+.open{
+    transform: rotate(180deg);
+}
+
+.collapsibleContent{
+    padding: 10px;
+    border: 1px solid #580505;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}

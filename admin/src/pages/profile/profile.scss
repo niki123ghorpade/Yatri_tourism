@@ -1,0 +1,30 @@
+// profile.scss
+
+.profile {
+    display: flex;
+    width: 100%;
+
+    .profilecontainer {
+        flex: 6;
+       
+
+        h1 {
+            padding: 20px;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        hr {
+            margin: 20px 0;
+            border: 0;
+            border-top: 1px solid #ccc;
+        }
+    }
+
+   
+}

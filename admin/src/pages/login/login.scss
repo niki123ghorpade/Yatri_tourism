@@ -1,0 +1,58 @@
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    padding: 30px;
+    width: 350px;
+    height: 400px;
+    background: linear-gradient(45deg,#c2009827, #e600c094); /* Gradient background */
+  }
+  
+  .login-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:5px;
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .login-content {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+    
+    .lContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  
+    .lInput {
+      margin-bottom: 15px;
+      padding: 10px;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+    
+    .lButton {
+      border: none;
+      padding: 10px 20px;
+      background-color: #0071c2;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    
+    .lButton:disabled{
+      background-color: #0071c28c;
+      cursor: not-allowed;
+    }

@@ -1,0 +1,51 @@
+/* singleEnquiry.scss */
+
+.singleEnquiry {
+    display: flex;
+    width: 100%;
+  }
+  
+  .singleEnquiryContainer {
+    flex: 6;
+  }
+  
+  .content {
+    padding: 20px;
+    .blueButton {
+      background-color: rebeccapurple;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-right: 10px; // Adjust as needed
+      cursor: pointer;
+
+      &:hover {
+        background-color: darkblue;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    margin-bottom: 10px;
+  }
+  
+  .content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .content ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for Navbar and Sidebar components can be added separately */
+  

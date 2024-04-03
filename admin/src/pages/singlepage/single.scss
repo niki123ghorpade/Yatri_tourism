@@ -1,0 +1,29 @@
+.single {
+    display: flex;
+    width: 100%;
+  
+    .singleContainer {
+      flex: 6;
+  
+      .content {
+        padding: 20px;
+  
+        table {
+          width: 100%;
+          border-collapse: collapse;
+  
+          th,
+          td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: left;
+          }
+  
+          th {
+            background-color: lightgray;
+          }
+        }
+      }
+    }
+  }
+  
